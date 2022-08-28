@@ -16,17 +16,26 @@ li {
   color: #2a2a2a;
 }
 
+
 header{
-  display: flex;
+ 
+    display: flex;
   align-items: center;
   background-color: bisque;
 }
+
+.header-logo {
+margin-left: 71px;
+}
+img{
+  flex-wrap: wrap;
+}
+
 .header-nav{
   background-color: #FFB342;
   width: 1200px;
   height: 88px;
-  margin-left: auto;
-  margin-right: auto;
+ margin: 0 auto;
   display: flex;
   align-items: center;
 }
