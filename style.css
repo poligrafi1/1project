@@ -16,10 +16,17 @@ li {
   color: #2a2a2a;
 }
 
+.top-header-item {
+  display: flex;
+  flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 header{
  
-    display: flex;
+  display: flex;
   align-items: center;
   background-color: bisque;
 }
