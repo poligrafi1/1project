@@ -7,6 +7,14 @@ li {
   list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+  color: #2a2a2a;
+  }
+.contacts-head{
+  font-family: 'mulish', sans-serif;
+  font-size: 20px;
+}
 .header-link{
   display: flex;
   align-items: center;
@@ -19,30 +27,38 @@ li {
 .top-header-item {
   display: flex;
   flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    align-items: right;
+    margin: 0 auto;
+    margin-left: 15px;
 }
 
 
 header{
- 
+  width: 1200px;
+  height: 128px;
   display: flex;
   align-items: center;
-  background-color: bisque;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
 }
 
 .header-logo {
-margin-left: 71px;
+margin-left: 0px;
 }
-img{
-  flex-wrap: wrap;
+
+.mail-logo{
+  margin-left: 415px;
+}
+.tel-logo{
+  margin-left: 73px;
 }
 
 .header-nav{
   background-color: #FFB342;
   width: 1200px;
   height: 88px;
- margin: 0 auto;
+  z-index: 2;
+   margin: 0 auto;
   display: flex;
   align-items: center;
 }
@@ -58,4 +74,80 @@ img{
   font-weight: 400;
   font-size: 20px;
   margin-left: auto;
+  margin-right: 10px;
+}
+
+.hero{
+  background-color: bisque;
+  width: 1440px;
+  height: 813px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -60px;
+  z-index: -1;
+  background-image: url(images/Hero.jpg);
+}
+.hero-tagline{
+  color: #ffffff;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 270px;
+  margin-left: 120px;
+  width: 662px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  -webkit-text-stroke: 1px #000000;
+}
+.hero-tagline1{
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'mulish', sans-serif;
+  position: absolute;
+  top: 280px;
+  margin-left: 120px;
+}
+.text-Improve{
+  margin-left: 10px;
+}
+.gear{
+  margin-left: 20px;
+}
+
+.button2{
+  width: 227px;
+  height: 68px;
+  color: #1C2752;
+  background-color: #FFB342;
+  border: 0cm;
+  font-size: 20px;
+  position: absolute;
+  top: 515px;
+  left: 120px;
+}
+
+.worker{
+  width: 1440px;
+  height: 860px;
+  margin: 0 auto;
+  display: flex;
+  
+}
+.worker-img1{
+  position: relative;
+  margin-left: 120px;
+  margin-top: 140px;
+}
+.WelcomeBlueCollar{
+  width: 249px;
+  height: 27px;
+  margin-top: 160px;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
+.worker-padding{
+  padding-left: 50px;
 }
